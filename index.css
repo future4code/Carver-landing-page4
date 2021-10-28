@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 234, 238);
+    overflow: hidden;
+    height: 48px;
+  }
+  
+  header> a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  header a:hover {
+    background-color: rgba(240, 218, 222, 0.961);
+    color: white;
+    cursor: pointer;
+    list-style-type: disc;
+  }
