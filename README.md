@@ -23,3 +23,7 @@ Contendo também as seções quem somos, contatos, nossos serviços
 Link do Surge:
 https://heartbreaking-history.surge.sh/
 
+![image](https://user-images.githubusercontent.com/91218096/139510631-ec0f5cc8-3142-4ed6-a488-b10793f4b539.png)
+
+![image](https://user-images.githubusercontent.com/91218096/139510640-5c852858-cbff-4786-b271-fabf2ceece4c.png)
+
