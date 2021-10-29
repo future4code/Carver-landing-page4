@@ -19,3 +19,7 @@ Também foram realizados comentários no CSS indicando as partes do layout da p�
 Também foram utilizadas as palhetas de cores conforme a logo e identidade visual da marca
 
 Contendo também as seções quem somos, contatos, nossos serviços
+
+Link do Surge:
+https://heartbreaking-history.surge.sh/
+
