@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: grid;    
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F1F24;
+    overflow: hidden;
+    height: 10vh;
+    font-weight: bolder;
+}
+
+header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header a:hover {
+    background-color: #decdb7b1;
+    color: white;
+    cursor: pointer;
+    list-style-type: disc;
+}
+
+/* MAIN */
+
+#img-check{
+    height: 15px;
+    width: 15px;
+}
+
+.img-servicos{
+    height: 20vh;
+    width: 13vw;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    grid-template-rows: 40vh;
+    margin: 3.6vw;
+    border-radius: 15px;
+    gap: 7px;
+    align-items: center;
+}
+
+#titulo-principal {
+    font-size: 5vw;
+    color: rgba(28, 25, 25, 0.947);
+}
+
+.subtitle {
+    font-size: 2vw;
+    color: rgb(104, 102, 102);
+    margin: 30px;
+}
+
+.button {
+    font-size: 1vw;
+    height: 6vh;
+    padding: 15px;
+    background-color: rgba(28, 25, 25, 0.947);
+    color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: rgba(28, 25, 25, 0.947);
+    ;
+    color: white;
+    border-radius: 20px;
+}
+
+.container-left {
+    display: flex;
+    margin-left: 1em;
+    margin-top: 2rem;
+}
+
+.confirmacao {
+    font-size: 1vw;
+    margin-right: 0.5rem;
+    padding-right: 1vh;
+}
+
+#button-consult{
+    font-size: 1vw;
+    padding-bottom: 17px;
+}
+
+.botao-simulacao {
+    display: flex;
+}
+
+#sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh;
+    background-color: #decdb7b1;
+    margin: 80px;
+    border-radius: 15px;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+.titulo-sobre {
+    font-size: 2.5vw;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.texto-sobre{
+    font-size: 1.3vw;
+}
+
+#servicos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh;
+ 
+    margin: 80px;
+    border-radius: 15px;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+
+div.img-servicos{
+    display: inline-block;
+}
+
+#img-emprestimo{
+    width: 40em;
+    height: 25em;
+}
+
+/* FOOTER */
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #1F1F24;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    justify-items: center;
+    
+}
+
+form td {
+    padding: 3px;
+}
+
+form input {
+    background-color: white;
+    border: 1px black;
+}
+
+textarea {
+    resize: none;
+  }
+
+.caixa-de-texto  {
+    height: 3vh;
+}
+
+#box-redes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh 1fr;
+}
+
+#Redes{
+    padding-bottom: 5px;
+}
+
+#box-redes img {
+    width: 7rem;
+    height: 7rem;
+}
+
+#facebook {
+    border-radius: 15px;
+}
+
+#instagram {
+    border-radius: 23px;
+}
+
+#twitter {
+    border-radius: 23px;
+}
+
+#img-footer{
+    border-radius: 15px;
+    height: 30rem;
+    width: 30rem;
+}
+
+.social1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.social2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.social3 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.titulo-redes{
+    font-size: 1.7rem;
+    color: white;
+}
+
+.titulo-form{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 1.7rem;
+}
+
+.formulario-contato{
+    color: white;
+    font-size: 1.4rem;
+}
+
+#botao-form{
+    width: 5rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    body{
+        display: grid;
+        grid-template-rows: 40vh 1fr 30vh;
+        
+    }
+
+    #corpo{
+        display: grid;
+        grid-template-rows: 50vh 69vh 40vh 30vh;
+        row-gap: 20vh;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        bottom: 0;
+    }
+
+    .container-left{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sobre{
+        display: flex;
+        flex-direction: column; 
+        gap: 0px;  
+    }
+
+    #titulo-principal {
+        font-size: 12.5vw;
+        color: rgba(28, 25, 25, 0.947);
+    }
+    
+    .subtitle {
+        font-size: 5vw;
+        color: rgb(104, 102, 102);
+        margin: 30px;
+    }
+
+    .confirmacao {
+        font-size: 5vw;
+        padding-bottom: 10px;
+
+    }
+
+    .titulo-sobre {
+        font-size: 12.5vw;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .texto-sobre{
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    #servicos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img-porco{
+        display: none;
+    }
+
+    #img-emprestimo{
+        display: none;
+    }
+
+    .img-servicos{
+        display: none;
+    }
+
+    .titulo-redes{
+        padding-bottom: 20px;
+    }
+
+    #button-consult{
+        font-size: 5vw;
+    }
+    
+    .button {
+        font-size: 4vw;
+        height: 12vh;
+        background-color: rgba(28, 25, 25, 0.947);
+        color: white;
+        border-radius: 20px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-device-width : 1280px) {
+    #box-redes img {
+        width: 5rem;
+        height: 5rem;
+    }
+}
